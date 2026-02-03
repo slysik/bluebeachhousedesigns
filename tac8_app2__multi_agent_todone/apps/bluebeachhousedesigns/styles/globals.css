@@ -1,0 +1,356 @@
+/**
+ * Global Styles for Blue Beach House Designs
+ *
+ * Design System: Coastal Luxury Editorial
+ * - Generous whitespace
+ * - Asymmetric layouts
+ * - Subtle wave-like animations
+ */
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* ========================================
+   CSS Custom Properties (Design Tokens)
+   ======================================== */
+:root {
+	/* Fonts */
+	--font-display: "Cormorant Garamond", Georgia, serif;
+	--font-body: "DM Sans", system-ui, sans-serif;
+	--font-accent: "Caveat", cursive;
+
+	/* Colors - Coastal Luxury Palette */
+	--color-navy: #1b3a57;
+	--color-navy-light: #2c4a68;
+	--color-navy-dark: #0f2438;
+	--color-sand: #e8e2d9;
+	--color-sand-light: #f5f2ed;
+	--color-sand-dark: #d4ccc0;
+	--color-seafoam: #a8c5c5;
+	--color-seafoam-light: #c5dada;
+	--color-seafoam-dark: #7fa3a3;
+	--color-coral: #e8a598;
+	--color-coral-hover: #d4887a;
+	--color-cream: #fdfcfa;
+	--color-white: #ffffff;
+	--color-charcoal: #2d3436;
+	--color-gray: #636e72;
+	--color-gray-light: #b2bec3;
+	--color-success: #55a88b;
+	--color-error: #c0544d;
+	--color-warning: #d4a84d;
+
+	/* Spacing */
+	--space-xs: 0.5rem;
+	--space-sm: 1rem;
+	--space-md: 2rem;
+	--space-lg: 4rem;
+	--space-xl: 8rem;
+	--space-2xl: 12rem;
+
+	/* Container widths */
+	--max-width-content: 1400px;
+	--max-width-text: 65ch;
+
+	/* Animation timing */
+	--ease-smooth: cubic-bezier(0.4, 0, 0.2, 1);
+	--ease-bounce: cubic-bezier(0.34, 1.56, 0.64, 1);
+	--ease-wave: cubic-bezier(0.45, 0.05, 0.55, 0.95);
+	--duration-fast: 150ms;
+	--duration-normal: 300ms;
+	--duration-slow: 500ms;
+	--duration-slower: 800ms;
+}
+
+/* ========================================
+   Base Layer - Reset & Defaults
+   ======================================== */
+@layer base {
+	html {
+		scroll-behavior: smooth;
+		-webkit-font-smoothing: antialiased;
+		-moz-osx-font-smoothing: grayscale;
+	}
+
+	body {
+		font-family: var(--font-body);
+		color: var(--color-charcoal);
+		background-color: var(--color-cream);
+		line-height: 1.6;
+	}
+
+	/* Typography defaults */
+	h1,
+	h2,
+	h3,
+	h4,
+	h5,
+	h6 {
+		font-family: var(--font-display);
+		font-weight: 400;
+		line-height: 1.2;
+		color: var(--color-navy);
+	}
+
+	h1 {
+		font-size: clamp(2.5rem, 5vw, 4rem);
+		letter-spacing: -0.02em;
+	}
+
+	h2 {
+		font-size: clamp(2rem, 4vw, 3rem);
+		letter-spacing: -0.01em;
+	}
+
+	h3 {
+		font-size: clamp(1.5rem, 3vw, 2rem);
+	}
+
+	h4 {
+		font-size: clamp(1.25rem, 2vw, 1.5rem);
+	}
+
+	p {
+		max-width: var(--max-width-text);
+	}
+
+	/* Focus styles for accessibility */
+	:focus-visible {
+		outline: 2px solid var(--color-seafoam);
+		outline-offset: 2px;
+	}
+
+	/* Selection styling */
+	::selection {
+		background-color: var(--color-seafoam-light);
+		color: var(--color-navy-dark);
+	}
+}
+
+/* ========================================
+   Component Layer - Reusable Components
+   ======================================== */
+@layer components {
+	/* Container */
+	.container {
+		width: 100%;
+		max-width: var(--max-width-content);
+		margin-inline: auto;
+		padding-inline: var(--space-sm);
+	}
+
+	@media (min-width: 768px) {
+		.container {
+			padding-inline: var(--space-md);
+		}
+	}
+
+	/* Button base */
+	.btn {
+		display: inline-flex;
+		align-items: center;
+		justify-content: center;
+		gap: 0.5rem;
+		padding: 0.875rem 1.75rem;
+		font-family: var(--font-body);
+		font-size: 0.875rem;
+		font-weight: 500;
+		letter-spacing: 0.025em;
+		text-transform: uppercase;
+		border-radius: 0;
+		transition: all var(--duration-normal) var(--ease-smooth);
+		cursor: pointer;
+		border: none;
+	}
+
+	.btn-primary {
+		background-color: var(--color-coral);
+		color: var(--color-white);
+	}
+
+	.btn-primary:hover {
+		background-color: var(--color-coral-hover);
+		transform: translateY(-1px);
+	}
+
+	.btn-secondary {
+		background-color: transparent;
+		color: var(--color-navy);
+		border: 1px solid var(--color-navy);
+	}
+
+	.btn-secondary:hover {
+		background-color: var(--color-navy);
+		color: var(--color-white);
+	}
+
+	/* Card */
+	.card {
+		background-color: var(--color-white);
+		box-shadow: 0 4px 20px rgba(27, 58, 87, 0.08);
+		transition: all var(--duration-normal) var(--ease-smooth);
+	}
+
+	.card:hover {
+		box-shadow: 0 8px 30px rgba(27, 58, 87, 0.12);
+		transform: translateY(-4px);
+	}
+
+	/* Product image */
+	.product-image {
+		aspect-ratio: 3 / 4;
+		overflow: hidden;
+	}
+
+	.product-image img {
+		width: 100%;
+		height: 100%;
+		object-fit: cover;
+		transition: transform var(--duration-slow) var(--ease-smooth);
+	}
+
+	.product-image:hover img {
+		transform: scale(1.05);
+	}
+
+	/* Handwritten accent */
+	.accent-text {
+		font-family: var(--font-accent);
+		font-size: 1.25rem;
+		color: var(--color-seafoam-dark);
+	}
+
+	/* Price styling */
+	.price {
+		font-family: var(--font-body);
+		font-weight: 500;
+		color: var(--color-navy);
+	}
+
+	.price-large {
+		font-size: 1.5rem;
+		letter-spacing: -0.02em;
+	}
+
+	/* Sold out badge */
+	.badge-sold-out {
+		display: inline-block;
+		padding: 0.25rem 0.75rem;
+		background-color: var(--color-sand-dark);
+		color: var(--color-charcoal);
+		font-size: 0.75rem;
+		font-weight: 500;
+		text-transform: uppercase;
+		letter-spacing: 0.05em;
+	}
+}
+
+/* ========================================
+   Utility Layer - Custom Utilities
+   ======================================== */
+@layer utilities {
+	/* Text utilities */
+	.text-balance {
+		text-wrap: balance;
+	}
+
+	/* Animation utilities */
+	.animate-fade-up {
+		animation: fadeUp var(--duration-slow) var(--ease-smooth) forwards;
+	}
+
+	.animate-fade-in {
+		animation: fadeIn var(--duration-normal) var(--ease-smooth) forwards;
+	}
+
+	/* Staggered animation children */
+	.stagger-children > * {
+		opacity: 0;
+		animation: fadeUp var(--duration-slow) var(--ease-smooth) forwards;
+	}
+
+	.stagger-children > *:nth-child(1) {
+		animation-delay: 0ms;
+	}
+	.stagger-children > *:nth-child(2) {
+		animation-delay: 100ms;
+	}
+	.stagger-children > *:nth-child(3) {
+		animation-delay: 200ms;
+	}
+	.stagger-children > *:nth-child(4) {
+		animation-delay: 300ms;
+	}
+	.stagger-children > *:nth-child(5) {
+		animation-delay: 400ms;
+	}
+	.stagger-children > *:nth-child(6) {
+		animation-delay: 500ms;
+	}
+
+	/* Gradient overlays */
+	.gradient-overlay {
+		position: relative;
+	}
+
+	.gradient-overlay::after {
+		content: "";
+		position: absolute;
+		inset: 0;
+		background: linear-gradient(
+			to bottom,
+			transparent 0%,
+			rgba(15, 36, 56, 0.3) 100%
+		);
+		pointer-events: none;
+	}
+}
+
+/* ========================================
+   Keyframes
+   ======================================== */
+@keyframes fadeUp {
+	from {
+		opacity: 0;
+		transform: translateY(20px);
+	}
+	to {
+		opacity: 1;
+		transform: translateY(0);
+	}
+}
+
+@keyframes fadeIn {
+	from {
+		opacity: 0;
+	}
+	to {
+		opacity: 1;
+	}
+}
+
+@keyframes slideIn {
+	from {
+		opacity: 0;
+		transform: translateX(100%);
+	}
+	to {
+		opacity: 1;
+		transform: translateX(0);
+	}
+}
+
+/* Wave-like subtle float animation for decorative elements */
+@keyframes float {
+	0%,
+	100% {
+		transform: translateY(0);
+	}
+	50% {
+		transform: translateY(-10px);
+	}
+}
+
+.animate-float {
+	animation: float 4s var(--ease-wave) infinite;
+}

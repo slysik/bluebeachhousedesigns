@@ -1,0 +1,78 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 380" fill="none">
+  <!-- Blue Beach House Designs Logo - Matching live site design -->
+  <g fill="#1e4573">
+    <!-- Outer Circle -->
+    <circle cx="200" cy="150" r="115" fill="none" stroke="#1e4573" stroke-width="5"/>
+
+    <!-- Inner content group -->
+    <g transform="translate(200, 150)">
+      <!-- Beach House on Stilts -->
+      <g transform="translate(-45, -35)">
+        <!-- Main house body -->
+        <rect x="10" y="25" width="70" height="45" fill="#1e4573"/>
+        <!-- Roof with overhang -->
+        <polygon points="45,-5 -5,30 95,30" fill="#1e4573"/>
+        <!-- Roof peak detail -->
+        <polygon points="45,0 42,3 48,3" fill="white"/>
+        <!-- Upper window row -->
+        <rect x="18" y="32" width="10" height="10" fill="white"/>
+        <rect x="35" y="32" width="10" height="10" fill="white"/>
+        <rect x="52" y="32" width="10" height="10" fill="white"/>
+        <!-- Lower window row -->
+        <rect x="18" y="48" width="10" height="10" fill="white"/>
+        <rect x="52" y="48" width="10" height="10" fill="white"/>
+        <!-- Door -->
+        <rect x="35" y="48" width="12" height="22" fill="white"/>
+        <!-- Porch/Deck -->
+        <rect x="5" y="70" width="80" height="5" fill="#1e4573"/>
+        <!-- Stilts -->
+        <rect x="15" y="75" width="4" height="25" fill="#1e4573"/>
+        <rect x="35" y="75" width="4" height="25" fill="#1e4573"/>
+        <rect x="55" y="75" width="4" height="25" fill="#1e4573"/>
+        <rect x="75" y="75" width="4" height="25" fill="#1e4573"/>
+      </g>
+
+      <!-- Left Palm Tree -->
+      <g transform="translate(-80, 5)">
+        <!-- Curved trunk -->
+        <path d="M8 95 Q12 55 18 25" stroke="#1e4573" stroke-width="5" fill="none" stroke-linecap="round"/>
+        <!-- Palm fronds - spreading outward -->
+        <path d="M18 25 Q-5 15 -25 30" stroke="#1e4573" stroke-width="3" fill="none"/>
+        <path d="M18 25 Q-8 5 -20 15" stroke="#1e4573" stroke-width="3" fill="none"/>
+        <path d="M18 25 Q5 -5 0 10" stroke="#1e4573" stroke-width="3" fill="none"/>
+        <path d="M18 25 Q25 -5 30 10" stroke="#1e4573" stroke-width="3" fill="none"/>
+        <path d="M18 25 Q38 5 48 15" stroke="#1e4573" stroke-width="3" fill="none"/>
+        <path d="M18 25 Q35 15 50 30" stroke="#1e4573" stroke-width="3" fill="none"/>
+      </g>
+
+      <!-- Right Palm Tree -->
+      <g transform="translate(62, 5)">
+        <!-- Curved trunk -->
+        <path d="M8 95 Q4 55 -2 25" stroke="#1e4573" stroke-width="5" fill="none" stroke-linecap="round"/>
+        <!-- Palm fronds - spreading outward -->
+        <path d="M-2 25 Q-30 15 -45 30" stroke="#1e4573" stroke-width="3" fill="none"/>
+        <path d="M-2 25 Q-28 5 -40 15" stroke="#1e4573" stroke-width="3" fill="none"/>
+        <path d="M-2 25 Q-15 -5 -20 10" stroke="#1e4573" stroke-width="3" fill="none"/>
+        <path d="M-2 25 Q5 -5 10 10" stroke="#1e4573" stroke-width="3" fill="none"/>
+        <path d="M-2 25 Q18 5 28 15" stroke="#1e4573" stroke-width="3" fill="none"/>
+        <path d="M-2 25 Q15 15 25 30" stroke="#1e4573" stroke-width="3" fill="none"/>
+      </g>
+
+      <!-- Waves at bottom of circle - three flowing lines -->
+      <g transform="translate(0, 75)">
+        <path d="M-85 5 Q-65 -5 -45 5 Q-25 15 -5 5 Q15 -5 35 5 Q55 15 75 5 Q85 0 95 5"
+              stroke="#1e4573" stroke-width="4" fill="none" stroke-linecap="round"/>
+        <path d="M-75 18 Q-55 8 -35 18 Q-15 28 5 18 Q25 8 45 18 Q65 28 85 18"
+              stroke="#1e4573" stroke-width="3.5" fill="none" stroke-linecap="round"/>
+        <path d="M-65 30 Q-45 22 -25 30 Q-5 38 15 30 Q35 22 55 30 Q70 36 80 30"
+              stroke="#1e4573" stroke-width="3" fill="none" stroke-linecap="round"/>
+      </g>
+    </g>
+
+    <!-- Text "BLUE BEACH HOUSE" - matching site typography -->
+    <text x="200" y="300" text-anchor="middle" font-family="'Times New Roman', Georgia, serif" font-size="28" font-weight="bold" fill="#1e4573" letter-spacing="4">BLUE BEACH HOUSE</text>
+
+    <!-- Text "DESIGNS" - wider letter spacing like the original -->
+    <text x="200" y="340" text-anchor="middle" font-family="'Times New Roman', Georgia, serif" font-size="22" fill="#1e4573" letter-spacing="10">DESIGNS</text>
+  </g>
+</svg>

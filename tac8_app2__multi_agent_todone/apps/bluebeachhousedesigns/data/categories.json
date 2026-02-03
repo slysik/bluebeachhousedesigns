@@ -1,0 +1,34 @@
+[
+	{
+		"id": "shell-panels",
+		"name": "Shell Panels",
+		"slug": "shell-panels",
+		"description": "Handcrafted decorative panels featuring locally sourced shells arranged in stunning patterns.",
+		"image": "https://cdn.shopify.com/s/files/1/0782/9726/8474/files/IMG_2172.heic?v=1758660569",
+		"productCount": 8
+	},
+	{
+		"id": "painted-shell-art",
+		"name": "Painted Shell Art",
+		"slug": "painted-shell-art",
+		"description": "Hand painted shells mounted on canvas. Each piece is a unique work of art.",
+		"image": "https://cdn.shopify.com/s/files/1/0782/9726/8474/files/IMG_2772.heic?v=1761057364",
+		"productCount": 1
+	},
+	{
+		"id": "shell-study-art",
+		"name": "Shell Study Art",
+		"slug": "shell-study-art",
+		"description": "Curated shell collections arranged on linen or grasscloth backing in elegant white frames.",
+		"image": "https://cdn.shopify.com/s/files/1/0782/9726/8474/files/22a1e28b-1582-408e-8e12-85012728efeb_7c005254-9d00-428d-971c-92b636bcd0b4.jpg?v=1759077106",
+		"productCount": 5
+	},
+	{
+		"id": "shell-boxes",
+		"name": "Shell Boxes",
+		"slug": "shell-boxes",
+		"description": "Decorative rattan boxes adorned with hand-selected shells. Perfect for jewelry and keepsakes.",
+		"image": "https://cdn.shopify.com/s/files/1/0782/9726/8474/files/IMG_2229.heic?v=1758659207",
+		"productCount": 4
+	}
+]

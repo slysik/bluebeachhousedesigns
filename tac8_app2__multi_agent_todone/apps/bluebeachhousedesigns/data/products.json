@@ -1,0 +1,236 @@
+[
+	{
+		"id": "aquaverde-shell-panel",
+		"name": "Aquaverde Shell Panel, 12\" x 12\"",
+		"description": "Original Shell Panel. Size: 12\" x 12\". *Artwork Sales Are Final",
+		"price": 250,
+		"images": [
+			"https://cdn.shopify.com/s/files/1/0782/9726/8474/files/IMG_2172.heic?v=1758660569"
+		],
+		"category": "shell-panels",
+		"available": true,
+		"stripeProductId": "",
+		"stripePriceId": ""
+	},
+	{
+		"id": "lei-flower-shell-panel-18",
+		"name": "Lei Flower Shell Panel, 18\" Dia",
+		"description": "Original Shell Panel. Size: 18\" Diameter. *All Sales Are Final",
+		"price": 448,
+		"images": [
+			"https://cdn.shopify.com/s/files/1/0782/9726/8474/files/IMG_2752.heic?v=1760996341"
+		],
+		"category": "shell-panels",
+		"available": false,
+		"stripeProductId": "",
+		"stripePriceId": ""
+	},
+	{
+		"id": "blush-shell-panel",
+		"name": "Blush Shell Panel, 14\" x 18\"",
+		"description": "Original Shell Panel. Size: 14\" x 18\". *Artwork Sales Are Final",
+		"price": 448,
+		"images": [
+			"https://cdn.shopify.com/s/files/1/0782/9726/8474/files/IMG_3202.heic?v=1763416210"
+		],
+		"category": "shell-panels",
+		"available": true,
+		"stripeProductId": "",
+		"stripePriceId": ""
+	},
+	{
+		"id": "night-out-shell-panel",
+		"name": "Night Out Shell Panel, 12\" x 12\"",
+		"description": "Original Shell Panel. Size: 12\" x 12\". *All Sales Are Final",
+		"price": 250,
+		"images": [
+			"https://cdn.shopify.com/s/files/1/0782/9726/8474/files/IMG_2755.heic?v=1760995172"
+		],
+		"category": "shell-panels",
+		"available": true,
+		"stripeProductId": "",
+		"stripePriceId": ""
+	},
+	{
+		"id": "mini-tempe-star-shell-panel",
+		"name": "Mini Tempe Star Shell Panel, 8\" x 8\"",
+		"description": "Original Shell Panel. Size: 8\" x 8\". *Artwork Sales Are Final",
+		"price": 99,
+		"images": [
+			"https://cdn.shopify.com/s/files/1/0782/9726/8474/files/IMG_2249.heic?v=1758828082"
+		],
+		"category": "shell-panels",
+		"available": true,
+		"stripeProductId": "",
+		"stripePriceId": ""
+	},
+	{
+		"id": "tempe-star-shell-panel-18x36",
+		"name": "Tempe Star Shell Panel, 18\" x 36\"",
+		"description": "Original Shell Panel. Size: 18\" x 36\". *Artwork Sales Are Final",
+		"price": 1125,
+		"images": [
+			"https://cdn.shopify.com/s/files/1/0782/9726/8474/files/IMG_2234.heic?v=1758663272"
+		],
+		"category": "shell-panels",
+		"available": true,
+		"stripeProductId": "",
+		"stripePriceId": ""
+	},
+	{
+		"id": "naval-shell-panel",
+		"name": "Naval Shell Panel, 18\" x 24\"",
+		"description": "Original Shell Panel. Size: 18\" x 24\". *Artwork Sales Are Final",
+		"price": 750,
+		"images": [
+			"https://cdn.shopify.com/s/files/1/0782/9726/8474/files/IMG_1646.heic?v=1758661325"
+		],
+		"category": "shell-panels",
+		"available": false,
+		"stripeProductId": "",
+		"stripePriceId": ""
+	},
+	{
+		"id": "serenely-shell-panel",
+		"name": "Serenely Shell Panel, 18\" Dia",
+		"description": "Original Shell Panel. Size: 18\" Diameter. *All Sales Are Final",
+		"price": 448,
+		"images": [
+			"https://cdn.shopify.com/s/files/1/0782/9726/8474/files/IMG_2220.heic?v=1758659535"
+		],
+		"category": "shell-panels",
+		"available": true,
+		"stripeProductId": "",
+		"stripePriceId": ""
+	},
+	{
+		"id": "painted-shell-canvas",
+		"name": "Painted Shell Canvas Blue & Green, 24\" x 36\"",
+		"description": "Hand Painted Shells Mounted on a 24 x 36 Canvas in a Gold Frame. Hardware Included for Easy Hanging. Size: 24\" x 36\". *All Sales Are Final",
+		"price": 875,
+		"images": [
+			"https://cdn.shopify.com/s/files/1/0782/9726/8474/files/IMG_2772.heic?v=1761057364"
+		],
+		"category": "painted-shell-art",
+		"available": true,
+		"stripeProductId": "",
+		"stripePriceId": ""
+	},
+	{
+		"id": "shell-study-art-1",
+		"name": "Shell Study Art, 14\" x 18\"",
+		"description": "Shell Study Art featuring a hand selected collection of shells, arranged on a neutral grasscloth backing in a white frame. Hooks attached to back for easy hanging. Size: 14\" x 18\". *All Art Sales Are Final",
+		"price": 298,
+		"images": [
+			"https://cdn.shopify.com/s/files/1/0782/9726/8474/files/IMG_2279.heic?v=1758829821"
+		],
+		"category": "shell-study-art",
+		"available": true,
+		"stripeProductId": "",
+		"stripePriceId": ""
+	},
+	{
+		"id": "shell-study-art-2",
+		"name": "Shell Study Art, 14\" x 18\"",
+		"description": "Shell Study Art featuring a hand selected collection of shells, arranged on a neutral grasscloth backing in a white frame. Hooks attached to back for easy hanging. Size: 14\" x 18\". *All Art Sales Are Final",
+		"price": 298,
+		"images": [
+			"https://cdn.shopify.com/s/files/1/0782/9726/8474/files/IMG_2392.heic?v=1759078325"
+		],
+		"category": "shell-study-art",
+		"available": true,
+		"stripeProductId": "",
+		"stripePriceId": ""
+	},
+	{
+		"id": "shell-study-art-3",
+		"name": "Shell Study Art, 14\" x 18\"",
+		"description": "Shell Study Art featuring a hand selected collection of shells, arranged on a neutral grasscloth backing in a white frame. Hooks attached to back for easy hanging. Size: 14\" x 18\". *All Art Sales Are Final",
+		"price": 298,
+		"images": [
+			"https://cdn.shopify.com/s/files/1/0782/9726/8474/files/IMG_2285.heic?v=1758830177"
+		],
+		"category": "shell-study-art",
+		"available": true,
+		"stripeProductId": "",
+		"stripePriceId": ""
+	},
+	{
+		"id": "bespoke-coastal-blue-study-1",
+		"name": "Bespoke Coastal Blue Shell Study Art, 18\" x 22\"",
+		"description": "Shell Study Art featuring a hand selected collection of shells, arranged on a coastal blue linen backing in a white frame. Hooks attached to back for easy hanging. Size: 18\" x 22\". Please allow 4-6 weeks for delivery. *All Art Sales Are Final",
+		"price": 498,
+		"images": [
+			"https://cdn.shopify.com/s/files/1/0782/9726/8474/files/22a1e28b-1582-408e-8e12-85012728efeb_7c005254-9d00-428d-971c-92b636bcd0b4.jpg?v=1759077106"
+		],
+		"category": "shell-study-art",
+		"available": true,
+		"stripeProductId": "",
+		"stripePriceId": ""
+	},
+	{
+		"id": "bespoke-coastal-blue-study-2",
+		"name": "Bespoke Coastal Blue Shell Study Art, 18\" x 22\"",
+		"description": "Shell Study Art featuring a hand selected collection of shells, arranged on a coastal blue linen backing in a white frame. Hooks attached to back for easy hanging. Size: 18\" x 22\". Please allow 4-6 weeks for delivery. *All Art Sales Are Final",
+		"price": 498,
+		"images": [
+			"https://cdn.shopify.com/s/files/1/0782/9726/8474/files/d71a89cf-088e-45ad-a76f-e5ca02bf2617_71690c3d-485c-400c-a4b7-1ddd93930d96.jpg?v=1759076982"
+		],
+		"category": "shell-study-art",
+		"available": true,
+		"stripeProductId": "",
+		"stripePriceId": ""
+	},
+	{
+		"id": "rattan-blush-shell-box",
+		"name": "Bespoke Rattan Blush Shell Box",
+		"description": "Custom Rattan Shell Box with Lined Interior. Size: 10.75\" W x 6.75\" D x 3.75\" H. *All Sales Are Final",
+		"price": 150,
+		"images": [
+			"https://cdn.shopify.com/s/files/1/0782/9726/8474/files/IMG_2229.heic?v=1758659207"
+		],
+		"category": "shell-boxes",
+		"available": true,
+		"stripeProductId": "",
+		"stripePriceId": ""
+	},
+	{
+		"id": "rattan-coral-shell-box",
+		"name": "Bespoke Rattan Coral Shell Box",
+		"description": "Custom Rattan Shell Box with Lined Interior. Size: 9.5\" L x 5.5\" D x 4.5\" H. *All Sales Final",
+		"price": 150,
+		"images": [
+			"https://cdn.shopify.com/s/files/1/0782/9726/8474/files/IMG_1214.heic?v=1758654918"
+		],
+		"category": "shell-boxes",
+		"available": true,
+		"stripeProductId": "",
+		"stripePriceId": ""
+	},
+	{
+		"id": "rattan-natural-shell-box-1",
+		"name": "Bespoke Rattan Natural Shell Box",
+		"description": "Custom Rattan Box with lined interior. Size: 11.5\" W x 6\" D x 6.75\" H. *All Sales Are Final",
+		"price": 175,
+		"images": [
+			"https://cdn.shopify.com/s/files/1/0782/9726/8474/files/IMG_2227_c7014e41-8d27-4b0c-9deb-52f7f3bb1064.heic?v=1758657598"
+		],
+		"category": "shell-boxes",
+		"available": true,
+		"stripeProductId": "",
+		"stripePriceId": ""
+	},
+	{
+		"id": "rattan-natural-shell-box-2",
+		"name": "Bespoke Rattan Natural Shell Box",
+		"description": "Custom Rattan Box with lined interior. Size: 7.5\" W x 5.5\" D x 5\" H. *All Sales Are Final",
+		"price": 150,
+		"images": [
+			"https://cdn.shopify.com/s/files/1/0782/9726/8474/files/IMG_3221.heic?v=1763417478"
+		],
+		"category": "shell-boxes",
+		"available": true,
+		"stripeProductId": "",
+		"stripePriceId": ""
+	}
+]
